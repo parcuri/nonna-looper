@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tuttofisa – All Uploads (Player + List)</title>
+  <title>La M&uacute;sica de Elsa</title>
   <style>
     :root {
       --bg: #0b0b0b;
@@ -44,14 +44,14 @@
   </style>
 </head>
 <body>
-  <header>Tuttofisa – Accordion Videos</header>
+  <header>La M&uacute;sica de Elsa</header>
   <div class="wrap">
     <div id="player-container"><div id="player"></div></div>
     <div class="controls">
-      <button id="playAll">Play All (Loop)</button>
-      <button id="pauseBtn" class="secondary">Pause</button>
+      <button id="playAll">Reproducir Todos</button>
+      <button id="pauseBtn" class="secondary">Pausa</button>
     </div>
-    <div class="hint">Tip: tap a video from the list below to play it. “Play All” loads the full uploads playlist and loops forever.</div>
+    <div class="hint">Pod&eacute;s elegir cualquier tema de abajo y se va a reproducir. Si haces click en "Reproducir Todos" se reproduce la lista entera.</div>
     <div id="list" class="list" role="list" aria-label="Video list"></div>
   </div>
 
@@ -59,7 +59,7 @@
     // ========== CONFIG (edit these) ==========
     const API_KEY = "AIzaSyAfQik4u7DXcX8jBYh9xjL34lb1UMBB-dQ"; // <-- Replace with your YouTube Data API v3 key
     const UPLOADS_PLAYLIST_ID = "UUr3JMlX82_LQiznHsDkYCgA"; // Tuttofisa uploads (derived from channel UC... -> UU...)
-    const MAX_RESULTS = 50; // up to 50 items per page
+    const MAX_RESULTS = 300; // up to 300 items per page
     // =========================================
 
     // Load IFrame Player API
